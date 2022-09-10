@@ -29,7 +29,7 @@ public class getmazepath {
 
         }
         if(sr<dr){
-            vpaths = getMazePaths(sr+1,sc,dc,dr);
+            vpaths = getMazePaths(sr+1,sc,dr,dc);
         }
         ArrayList<String> paths = new ArrayList<>();
         for(String hpath:hpaths){
