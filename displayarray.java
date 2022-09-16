@@ -1,7 +1,7 @@
-import java.io.*;
+//import java.io.*;
 import java.util.*;
 
-public class displayarray4 {
+public class displayarray {
 
     public static void main(String[] args) throws Exception {
         // write your code here
@@ -13,6 +13,7 @@ public class displayarray4 {
 
         }
         displayArr(arr,0);
+        scn.close();
     }
 
     public static void displayArr(int[] arr, int idx){
@@ -23,7 +24,9 @@ public class displayarray4 {
         }
         System.out.println(arr[idx]);
         displayArr(arr,idx+1);
+       
         
     }
+   
 
 }

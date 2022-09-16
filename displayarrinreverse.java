@@ -1,4 +1,4 @@
-import java.io.*;
+//import java.io.*;
 import java.util.*;
 
 public class displayarrinreverse {
@@ -12,6 +12,7 @@ public class displayarrinreverse {
             arr[i] = scn.nextInt();
         }
         displayArrReverse(arr,arr.length-1);
+        //scn.close();
 
     }
 
